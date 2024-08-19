@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaterLand</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="data:image/png;base64,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" alt="h-photo" class="logo">
+            <h1>WaterLand</h1>
+        </div>
+        <nav class="nav-center">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Service</a>
+            <a href="blogs">Blogs</a>
+            <div class="dropdown">
+                <a href="#" class="dropdown-toggle">Pages</a>
+                <div class="dropdown-menu">
+                    <a href="#pg1">Page 1</a>
+                    <a href="#pg2">Page 2</a>
+                    <a href="#pg3">Page 3</a>
+                </div>
+            </div>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="social-links">
+            <a href=""></a>
+        </div>
+            <a href="#get-started" class="get-started">Get Started</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="bg-photo">
+            <!-- <img src="https://themewagon.github.io/WaterLand/img/carousel-2.jpg" alt=""> -->
+            <div class="content">
+                <h3>WELCOME TO WATERLAND</h3>
+                <h1>THE GREATEST WATER AND AMUSEMENT PARK</h1>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, est atque rerum quo perspiciatis accusamus quaerat consequuntur nobis, sunt in, debitis ut ullam? Porro quidem aliquid temporibus quisquam et nostrum.</h3>   
+            </div>
+            <div class="booking-form">
+                <h4>BOOK YOUR TICKETS</h4>
+                <form action="#" method="post">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required>
+                    <label for="guest">Guest</label>
+                    <input type="text" id=gGuest" name="guest" required>
+                    <button type="submit" class="book-now">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <main>
+        <div class="sections-container">
+            <div class="section" style="background-image:url(https://themewagon.github.io/WaterLand/img/feature-1.jp);">
+                <div class="content">
+                    <h3>Best Pools</h3>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis adipisci ipsa iste eos debitis omnis veniam consequuntur saepe, modi eveniet voluptatibus, beatae mollitia vel dolorem excepturi et quisquam illo harum?</h4>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="section" style="background-image:url(https://themewagon.github.io/WaterLand/img/feature-1.jp);">
+                <div class="content">
+                    <h3>WaterRides</h3>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis adipisci ipsa iste eos debitis omnis veniam consequuntur saepe, modi eveniet voluptatibus, beatae mollitia vel dolorem excepturi et quisquam illo harum?</h4>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="section" style="background-image:url(https://themewagon.github.io/WaterLand/img/feature-1.jp);">
+                <div class="content">
+                    <h3>RiverRides</h3>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis adipisci ipsa iste eos debitis omnis veniam consequuntur saepe, modi eveniet voluptatibus, beatae mollitia vel dolorem excepturi et quisquam illo harum?</h4>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <main>
+        <div class="container">
+            <div class="content">
+                <h3>Our Gallery</h3>
+                <h2>Captured Moments in Waterland</h2>
+                <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque itaque nobis facilis modi numquam ducimus deserunt quidem, ullam eveniet blanditiis iusto magnam quisquam at nostrum voluptas aliquam, repellendus, fuga placeat.</h5>
+            </div>
+            <div class="photos">
+                <img src="https://themewagon.github.io/WaterLand/img/gallery-1.jpg" alt="p1">
+                <img src="https://themewagon.github.io/WaterLand/img/gallery-2.jpg" alt="p2">
+                <img src="https://themewagon.github.io/WaterLand/img/gallery-3.jpg" alt="p3">
+                <img src="https://themewagon.github.io/WaterLand/img/gallery-4.jpg" alt="p4">
+            </div>
+        </div>
+    </main>
+</body>
+</html>
